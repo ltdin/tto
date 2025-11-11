@@ -1,0 +1,11 @@
+# Force consistent line endings
+* text=auto
+*.dart text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+*.gradle text eol=lf
+*.kt text eol=lf
+*.swift text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
