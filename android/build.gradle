@@ -17,11 +17,11 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://artifacts.netcore.co.in/artifactory/android' }
     }
 }
 
 rootProject.buildDir = '../build'
-
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
     project.evaluationDependsOn(':app')
